@@ -1,6 +1,10 @@
 *{
     padding: 0px;
     margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    
 }
 
 
@@ -9,7 +13,7 @@ body{
     background-image: url(imagenes/clouds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: aqua;
+    background-color: #d0b6dd;
 }
 
 ul{
@@ -26,7 +30,7 @@ ul{
 }
 .imgbanner{
     float: right;
-    width: 1400px;
+    width: 1350px;
     height: 100px;
 }
 input[type="checkbox"]{
@@ -91,17 +95,97 @@ section{
     background-color: #bf9aca42;
     border-radius: 20px;
     margin-right: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 7px;
     position: relative;
     
     
 }
 iframe{
-   
+   margin-bottom: 30px;
     opacity: 80%;
  
 }
-p{
-    top: 50px;
-    position: relative;
+
+/* OFERTAS MAS POPULARES */
+
+.container{
+position: absolute;   
+max-width: 1000px; 
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 900px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+grid-gap:30px;
+margin-left: 15px;
+
+
+}
+
+.item{
+    background-color: beige;
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0, .895);
+    transition: all 300ms;
+}
+
+.item::after{
+    content: "";
+    background-color: rgb(179, 229, 252, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+.item:hover:after{
+    opacity: 20;
+    transform: scale(1);
+}
+.item:hover{
+    transform: scale(1.05);
+
+}
+.item-text{
+    top: -40px;
+    padding: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, .895);
+}
+
+.item-img{
+    
+    width: 420px;
+    height: 300px;
+    
+    display: block;
+}
+
+/* PARA ACOMDAR LAS IMAGENES */
+
+@media screen and (min-width:960px) {
+    .container{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+.segundo{
+    
+    height: 100px;
+    
+}
+h2{ 
+
+    font-family: cursive;
+    position: absolute;
+    margin-top: 900px;
+    font-size: 50px;
+    margin-left: 390px;
+    
+    
 }
