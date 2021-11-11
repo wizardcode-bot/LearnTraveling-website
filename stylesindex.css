@@ -4,7 +4,63 @@
     outline:0;
     box-sizing:border-box;
 }
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagenes/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d0b6dd;
+}
+.navegacion{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: 20px;
+}
+.img2{
+    width: 32px;
+}
+.imgbanner ul{
+    float: right;
+    width: 1350px;
+    height: 100px;
+}
+.navegacion a{
 
+    text-decoration: none;
+    color: black;
+    padding: 20px 115px;
+    color: white;
+    float: left;
+    display: block;
+    margin-left: 50px;
+}
+
+.navegacion a:hover{
+    background-color: rgb(176, 224, 230);
+    color: black;
+    border-radius: 20px;
+}
+
+label{
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+nav{
+    background-color: rgba(16, 16, 16, .5);
+    width: 100%;
+    top: -210px;
+    height: 100px;
+    position: absolute;
+    transition: all 1s;
+   
+} */
 html{
     font-family: Arial, sans-serif;
 }
@@ -16,6 +72,7 @@ h2{
     font-size: 20px;
     margin-left: 420px;
 }
+
 #imagenslider{
     width: 800px;
     height: 500px;
@@ -32,6 +89,7 @@ h2{
     width: 100%;
     position: relative;
     height: 780px;
+    margin-top: 150px;
 }
 
 .botones{
