@@ -9,7 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(imagenes/clouds.jpg);
     background-repeat: no-repeat;
-    background-color: #d0b6dd;
+    background-color: whitesmoke;
 }
 
 .navegacion{
@@ -73,12 +73,14 @@ label{
     z-index: 1;
 
 }
-h2{
+.lugares{
     font-family: cursive;
     position: absolute;
-    margin-top: -60px;
-    font-size: 20px;
-    margin-left: 420px;
+    margin-top: -100px;
+    font-size: 30px;
+    margin-left: 350px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #imagenslider{
@@ -138,7 +140,7 @@ max-width: 1000px;
 width: 90%;
 margin-left: auto;
 margin-right: auto;
-margin-top: 10px;
+margin-top: -100px;
 display: grid;
 grid-template-columns: repeat(1,1fr);
 grid-gap:30px;
@@ -188,7 +190,7 @@ margin-left: 15px;
 }
 .comentarios{
     width: 300px;
-    margin-top: 850px;
+    margin-top: 800px;
     margin-left: 200px;
     padding: 20px;
     border: 2px solid black;
@@ -278,6 +280,6 @@ footer{
     background-color: rgba(0, 0, 0, 0.726);
     padding: 20px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
