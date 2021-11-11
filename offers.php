@@ -19,19 +19,15 @@
     </label>
     <nav>
         <ul>
-
-        <li><a href="">HOME</a></li>
-        <li><a href="">ABOUT</a></li>
-        <li><a href="">OFFERS</a></li>
-        <li><a href="">HELP</a></li>
-
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">OFFERS</a></li>
+            <li><a href="">HELP</a></li>
         </ul>
-
-
     </nav>
+    
     <section>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fuLG0ki8g888iXodJndkstmje52Toh1-" width="900" height="590"></iframe>
-      
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fuLG0ki8g888iXodJndkstmje52Toh1-" width="900" height="590"></iframe>     
     </section>
 <div class="segundo">  
     <h2>
@@ -90,6 +86,10 @@
     </div>
 
    </div>
+
+   <?php
+   include_once "footer.php";
+   ?>
  
 </body>
 </html>
