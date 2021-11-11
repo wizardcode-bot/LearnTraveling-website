@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: whitesmoke;
+}
+
+
+/* título de cuentanos tu problema */
+h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+/* div que contiene la caja para escribir los problemas */
+.problemsBox{
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* caja para escribir los problemas */
+#complainBox{
+    width: 550px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* botón de caja de problemas */
+#problemsButton{
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* para modificar el tipo de letra en el placeholder */
+input::placeholder{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+/* texto de calificanos */
+.rate{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* Acá empieza todo lo de footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 20px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* texto para copyright */
+.textofooter{
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.telefono{
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgba(8, 8, 8, 0.815);
+}
+
+.textotel{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: -30px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.redes{
+     height: 10px;
+     margin-top: -70px;
+     margin-left: 800px;
+}
+.redes ul li{
+     display: inline-block;/*para que esteb horizontal*/
+     margin:5px 5px;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+}
+.redes ul li a{
+     display:block;
+     padding: 0 10px;
+     color: rgba(255, 255, 255, 0.932);
+     line-height: 50px;/*la altura para que queden en el centro*/
+     font-size: 20px;/*tamaño de fuente*/
+}
+.redes1{
+     height: 10px;
+     margin-top: -55px;
+     margin-left: 800px;
+}
+.redes1 ul li{
+     display: inline-block;/*para que esteb horizontal*/
+     margin:5px 5px;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+}
+.redes1 ul li a{
+     display:block;
+     padding: 0 10px;
+     color: rgba(255, 255, 255, 0.932);
+     line-height: 50px;/*la altura para que queden en el centro*/
+     font-size: 20px;/*tamaño de fuente*/
+}
+.contactar{
+    margin-left: 825px;
+    color: white;
+}
