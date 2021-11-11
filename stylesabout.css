@@ -11,7 +11,36 @@ body{
     background-repeat: no-repeat;
     background-color: whitesmoke;
 }
-
+.titulo{
+    text-align: center;
+}
+.user{
+    font-size: 120px;
+    margin-left: 350px;
+}
+.user1{
+    font-size: 120px;
+    margin-left: 650px;
+    margin-top: -148px;
+}
+.user2{
+    font-size: 120px;
+    margin-left: 950px;
+    margin-top: -148px;
+}
+.texto{
+    font-size: 10px;
+}
+.textosec{
+    margin-top: 60px;
+    text-align: center;
+}
+iframe{
+   margin-bottom: 30px;
+   opacity: 80%;
+   margin-left: 250px;
+   margin-top: 70px;
+}
 .navegacion{
     list-style: none;
     position: absolute;
@@ -22,13 +51,13 @@ body{
 .img2{
     float:right;
     width: 32px;
-    margin-top: -135px;
+    /* margin-top: -135px; */
 }
 .imgbanner{
     float: right;
     width: 1350px;
     height: 100px;
-    margin-top: -150px;
+    /* margin-top: -150px; */
 }
 input[type="checkbox"]{
     display: none;
@@ -41,7 +70,6 @@ nav{
     height: 100px;
     position: absolute;
     transition: all 1s;
-
 }
 
 input[type="checkbox"]:checked ~ nav{
@@ -50,7 +78,6 @@ input[type="checkbox"]:checked ~ nav{
 }
 
 a{
-
     text-decoration: none;
     color: black;
     padding: 20px 115px;
@@ -73,6 +100,7 @@ label{
     z-index: 1;
 
 }
+
 .lugares{
     font-family: cursive;
     position: absolute;
@@ -81,141 +109,6 @@ label{
     margin-left: 340px;
     text-align: center;
     margin-bottom: 30px;
-}
-
-#imagenslider{
-    width: 800px;
-    height: 500px;
-    display: flex;
-    width: 100%;
-    margin: 20px auto 0px;
-    padding: 0px 20px;
-    max-width: 1000px;
-    border: 2px solid rgb(82, 81, 81);
-    box-shadow: rgb(80, 78, 78) 5px 7px 10px;
-}
-
-.contenedor{
-    width: 100%;
-    position: relative;
-    height: 780px;
-    margin-top: 150px;
-}
-
-.botones{
-    font-size: 30px;
-    width:70px;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 50%;
-    background-color: rgb(0,0,0,.4);
-    text-align: center;
-    font-weight: bold;
-    position:absolute;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px rgb(255,255,255,.6);
-    -webkit-transition: all .3s ease;
-    -o-transition:all .3s ease;
-    transition:all .3s ease;
-}
-
-.botones:hover{
-    cursor: pointer;
-    transform: scale(1.2,1.2);
-}
-.atras{
-    left:200px;
-    top:200px;
-    top: calc(50%- 70%);
-}
-.adelante{
-    right: 200px;
-    top:200px;
-    top: calc(50%- 70%);
-}
-
-.container{
-position: absolute;
-max-width: 1000px;
-width: 90%;
-margin-left: auto;
-margin-right: auto;
-margin-top: -100px;
-display: grid;
-grid-template-columns: repeat(1,1fr);
-grid-gap:30px;
-margin-left: 15px;
-}
-
-.item{
-    background-color: beige;
-    cursor: pointer;
-    box-shadow: rgb(0, 0, 0, .895);
-    transition: all 300ms;
-}
-
-.item::after{
-    content: "";
-    background-color: rgb(179, 229, 252, .1);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transition: all 300ms;
-    opacity: 0;
-}
-.item:hover:after{
-    opacity: 20;
-    transform: scale(1);
-}
-.item:hover{
-    transform: scale(1.05);
-
-}
-.item-text{
-    top: -40px;
-    padding: 1em;
-    cursor: pointer;
-    box-shadow: 0 0 5px 0 rgb(0, 0, 0, .895);
-}
-
-.item-img{
-
-    width: 420px;
-    height: 300px;
-
-    display: block;
-}
-.comentarios{
-    width: 300px;
-    margin-top: 800px;
-    margin-left: 200px;
-    padding: 20px;
-    border: 2px solid black;
-    background-color: rgb(255, 235, 205);
-}
-.comentarios1{
-    width: 300px;
-    margin-top: -122px;
-    margin-left: 700px;
-    padding: 20px;
-    border: 2px solid black;
-    background-color: rgb(255, 235, 205);
-}
-.texto{
-    margin-top: 10px;
-}
-.usuario{
-     font-size: 50px;
-     color: rgba(0, 0, 0, 0.74);
-}
-/* PARA ACOMDAR LAS IMAGENES */
-@media screen and (min-width:960px) {
-    .container{
-        grid-template-columns:repeat(3,1fr);
-    }
 }
 .textofooter{
     text-align: left;
@@ -280,6 +173,6 @@ footer{
     background-color: rgba(0, 0, 0, 0.726);
     padding: 20px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 160px;
 }
 
