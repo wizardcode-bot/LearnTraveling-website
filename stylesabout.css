@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagenes/clouds.jpg);
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+.titulo{
+    text-align: center;
+}
+.user{
+    font-size: 120px;
+    margin-left: 350px;
+}
+.user1{
+    font-size: 120px;
+    margin-left: 650px;
+    margin-top: -148px;
+}
+.user2{
+    font-size: 120px;
+    margin-left: 950px;
+    margin-top: -148px;
+}
+.texto{
+    font-size: 10px;
+}
+.textosec{
+    margin-top: 60px;
+    text-align: center;
+}
+iframe{
+   margin-bottom: 30px;
+   opacity: 80%;
+   margin-left: 250px;
+   margin-top: 70px;
+}
+.navegacion{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: 20px;
+}
+.img2{
+    float:right;
+    width: 32px;
+    /* margin-top: -135px; */
+}
+.imgbanner{
+    float: right;
+    width: 1350px;
+    height: 100px;
+    /* margin-top: -150px; */
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+nav{
+    background-color: rgba(16, 16, 16, .5);
+    width: 100%;
+    top: -210px;
+    height: 100px;
+    position: absolute;
+    transition: all 1s;
+}
+
+input[type="checkbox"]:checked ~ nav{
+
+    transform: translateY(210px)
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 115px;
+    color: white;
+    float: left;
+    display: block;
+    margin-left: 50px;
+}
+
+a:hover{
+    background-color: rgb(176, 224, 230);
+    color: black;
+    border-radius: 20px;
+}
+
+label{
+
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+
+}
