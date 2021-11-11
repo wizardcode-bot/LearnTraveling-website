@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: whitesmoke;
+}
+
+
+/* título de cuentanos tu problema */
+h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+/* div que contiene la caja para escribir los problemas */
+.problemsBox{
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* caja para escribir los problemas */
+#complainBox{
+    width: 550px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* botón de caja de problemas */
+#problemsButton{
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* para modificar el tipo de letra en el placeholder */
+input::placeholder{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+/* texto de calificanos */
+.rate{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 800;
+}
+

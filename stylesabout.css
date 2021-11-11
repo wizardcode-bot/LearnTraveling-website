@@ -99,6 +99,7 @@ label{
     position: absolute;
     z-index: 1;
 
+<<<<<<< HEAD
 }
 
 .lugares{
@@ -176,3 +177,6 @@ footer{
     margin-top: 160px;
 }
 
+=======
+}
+>>>>>>> frontend
