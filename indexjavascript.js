@@ -1,4 +1,4 @@
-var imagenes = ['brasil.jpg','canada.jpg','japon.jpg','australia.jpg'],
+var imagenes = ['imagenesindex/brasil.jpg', 'imagenesindex/canada.jpg', 'imagenesindex/japon.jpg','imagenesindex/australia.jpg'],
 cont = 0;
 
 function carrousel(contenedor){
