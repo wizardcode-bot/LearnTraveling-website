@@ -54,12 +54,32 @@ input::placeholder{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     font-weight: 800;
+    margin-top: 50px;
 }
-
+/*icono gmail*/
+.gmail{
+     font-size: 30px;
+     margin-top: -5px;
+     float: left;
+     padding: 10px;
+     padding-left: 2px;
+}
 /* color del texto del correo */
 div a{
     color: rgb(134, 90, 90);
     font-weight: 700;
     font-style: normal;
+    padding: 10px;
+    float: left;
+    margin-top: 5px;
+    padding-right: 1000px;
+}
+/*Las extrellas modificación*/
+.star{
+    height: 10px;
+    margin-bottom: 40px;
+}
+.star ul li{
+    display: inline-block;
 }
 

@@ -27,12 +27,11 @@
     width: 100%;
     position: relative;
     height: max-content;
-    /* background: rgb(143, 190, 192); */
+    background: rgb(143, 190, 192);
     background-image: linear-gradient(rgb(61, 73, 73), rgb(74, 138, 141));
     padding: 10px;
     padding-bottom: 70px;
-}
-
+} 
 .botones{
     margin-top: 100px;
     font-size: 30px;
@@ -74,8 +73,8 @@
 
 /* empieza contenedor para lugares turisticos mas recomendados */
 .container{
-position: absolute;   
-max-width: 1000px; 
+position: absolute;
+max-width: 1000px;
 width: 90%;
 margin-right: 50px;
 margin-left: 130px;
@@ -122,7 +121,7 @@ grid-gap:30px;
 }
 
 .item-img{
-    
+
     width: 420px;
     height: 300px;  
     display: block;
@@ -226,13 +225,14 @@ article{
      font-size: 20px;/*tamaño de fuente*/
 }
 .contactar{
-    margin-left: 825px;
+    margin-left: 870px;
     color: white;
 }
+
 footer{
     background-color: rgba(0, 0, 0, 0.726);
     padding: 20px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 

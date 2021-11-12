@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <?php
 include_once "nav.php";
@@ -24,17 +25,30 @@ include_once "nav.php";
     <!-- contacto con correo electrónico -->
     <div class="problemsBox">
         <h3>Si aún tienes problemas escríbenos a este correo:</h3>
+        <div class="gmail">
+            <i class="fas fa-envelope"></i>
+        </div>
         <address><a href="mailto:fabianguzzman@gmail.com">LearnTraveling@gmail.com</a></address>
     </div>
-
     <!-- calificación de la página -->
     <div class="problemsBox  rate">
         <p>Calificanos</p>
-        <!-- ACÁ VAN LOS ICONOS DE LAS ESTRELLAS -->
+        <div class="star">
+            <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+            </ul>
+        </div>
     </div>
-<?php
-include_once "footer.php";
-?>
-    
+    <!-- ACÁ VAN LOS ICONOS DE LAS ESTRELLAS -->
+
+    <?php
+    include_once "footer.php";
+    ?>
+
 </body>
+
 </html>
