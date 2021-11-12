@@ -91,16 +91,17 @@
 </div>
 
 <div class="comentarios">
-        <i class="fas fa-user  usuario" align="left"></i>
+        <i class="fas fa-user  usuario" align="left">Lucy</i>
     <p class="texto">
-        Tuve una experiencia magnifica
+        Tuve una experiencia magnifica, desde el primero momento en que me contacté con la empresa hé recibido un excelente trato y servicio. Lo recomiendo totalmente.
     </p>
 </div>
 
 <div class="comentarios1">
-    <i class="fas fa-user  usuario" align="right"></i>
+    <i class="fas fa-user  usuario" align="right">Grigori</i>
     <p class="texto">
-        Tuve una experiencia magnifica ff
+        Really love this company! I never imagined that learning languages could be so exciting. I'd do it again and again undoubtedly. <br>
+        :)
     </p>
 </div>
 
