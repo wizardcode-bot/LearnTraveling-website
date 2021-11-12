@@ -13,7 +13,7 @@
 
 <body>
 
-    <h1 class="titulo">¿QUIENES SOMOS?</h1>
+    <h1 class="titulo">¿QUIENES SOMOS? LOS PVTOS AMOS</h1>
 
     <div class="user">
         <i class="fas fa-user-tie"></i>
