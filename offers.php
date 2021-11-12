@@ -13,20 +13,21 @@
 </h1>
 
 <body>
-    <input type="checkbox" id="chec">
+
+<input type="checkbox" id="chec">
     <label for="chec">
         <img class="img2" src="imagenesofertas/menu2.png" alt="">
     </label>
     <nav>
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">OFFERS</a></li>
-            <li><a href="">HELP</a></li>
+        <ul class="nav1" >
+            <li><a class="a" href="">HOME</a></li>
+            <li><a class="a" href="">ABOUT</a></li>
+            <li><a class="a" href="">OFFERS</a></li>
+            <li><a class="a" href="">HELP</a></li>
         </ul>
     </nav>
     
-    <section>
+    <section class="mapa">
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fuLG0ki8g888iXodJndkstmje52Toh1-" width="900" height="590"></iframe>     
     </section>
 <div class="segundo">  
@@ -88,8 +89,11 @@
    </div>
 
    <?php
-   include_once "footer.php";
-   ?>
+include_once "footer.php";
+?>
+
+
  
 </body>
+
 </html>

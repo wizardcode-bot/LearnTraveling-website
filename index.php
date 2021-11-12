@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="stylesindex.css">
     <title>LearnTraveling</title>
 </head>
+<?php
+include_once "nav.php";
+?>
+
 <h1 class="title1"> LearnTraveling Website</h1>
 <body>
 
