@@ -29,7 +29,6 @@ body{
 
 }
 .imgbanner{
-    float: right;
     width: 1350px;
     height: 100px;
 }
@@ -77,39 +76,17 @@ label{
     
 }
 
-section{
-
-    float: left;
-    margin-top: 10px;
-    margin-left: 250px;
-  
-    top: 140px;
-    
+.textomap{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
 }
-#fuente-google{
-
-    font-size: 70px;
-    float: right;
-    color: black;
-    font-family: consolas ;
-    text-shadow: 3px 2px 3px rgb(66, 66, 66);
-    background-color: #bf9aca42;
-    border-radius: 20px;
-    margin-right: 320px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 7px;
-    position: relative;
-    
-    
-}
-.mapa{
- position: absolute;
+iframe{
    margin-bottom: 30px;
-    opacity: 80%;
- 
+   opacity: 80%;
+   margin-left: 250px;
+   margin-top: 50px;
 }
-
 /* OFERTAS MAS POPULARES */
 
 .container{
@@ -118,7 +95,7 @@ section{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 900px;
+    margin-top: 90px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-gap:30px;
@@ -165,7 +142,6 @@ section{
         
         width: 420px;
         height: 300px;
-        
         display: block;
     }
     
@@ -176,16 +152,11 @@ section{
             grid-template-columns:repeat(3,1fr);
         }
     }
-    .segundo{
-        
-        height: 100px;
-        
-    }
-    h2{ 
+
+    .titulosec{ 
     
         font-family: cursive;
-        position: absolute;
-        margin-top: 900px;
+        margin-top: 90px;
         font-size: 50px;
         margin-left: 390px;
         
