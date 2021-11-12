@@ -19,18 +19,10 @@
     </label>
     <nav>
         <ul>
-<<<<<<< HEAD:offers.html
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="offers.html">OFFERS</a></li>
-        <li><a href="">HELP</a></li>
-
-=======
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
             <li><a href="">OFFERS</a></li>
             <li><a href="">HELP</a></li>
->>>>>>> frontend:offers.php
         </ul>
     </nav>
     

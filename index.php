@@ -20,19 +20,6 @@
 </head>
 <h1 class="title1"> LearnTraveling Website</h1>
 <body>
-    <input type="checkbox" id="chec">
-    <label for="chec">
-        <img class="img2" src="imagenesofertas/menu2.png" alt="">
-    </label>
-
-    <nav>
-        <ul class="navegacion">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="offers.html">OFFERS</a></li>
-            <li><a href="">HELP</a></li>
-        </ul>
-    </nav>
 
 <div class="contenedor">
 
