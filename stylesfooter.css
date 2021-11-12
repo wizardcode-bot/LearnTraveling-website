@@ -1,44 +1,61 @@
 /* Acá empieza todo lo de footer */
 footer{
-    background-color: rgba(0, 0, 0, 0.726);
-    padding: 50px;
-    height: max-content;
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 270px;
+    width: 100%;
     margin-top: 10px;
+    border: 3px solid black;
 }
 
 /* texto para copyright */
 .textofooter{
     text-align: left;
-    margin-top: 60px;
-    margin-left: 20px;
+    margin-top: 70px;
+    margin-left: 30px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
 
+/* icono de teléfono */
 .telefono{
     font-size: 30px;
-    margin-top: 30px;
-    color: rgba(8, 8, 8, 0.815);
+    margin-left: 35px;
+    margin-top: -15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-shadow: 1px 2px 1px whitesmoke;
 }
 
 .textotel{
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    margin-top: -30px;
+    padding-top: 8px;
     margin-left: 40px;
     font-size: 25px;
 }
+
+/* texto de contactanos */
+.contactos{
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 15px;
+     font-weight: 800;
+     margin-left: 999px;
+     padding-top: 60px;
+     padding-bottom: 10px;
+     color: white;
+}
+
 .redes{
-     height: 10px;
+     height: 20px;
      margin-top: -70px;
-     margin-left: 800px;
+     margin-left: 950px;
 }
 .redes ul li{
      display: inline-block;/*para que esteb horizontal*/
      margin:5px 5px;
-     width: 50px;
-     height: 50px;
+     width: 60px;
+     /* height: 50px; */
      text-align: center;
 }
 .redes ul li a{
@@ -46,18 +63,18 @@ footer{
      padding: 0 10px;
      color: rgba(255, 255, 255, 0.932);
      line-height: 50px;/*la altura para que queden en el centro*/
-     font-size: 20px;/*tamaño de fuente*/
+     font-size: 30px;/*tamaño de fuente*/
 }
 .redes1{
-     height: 10px;
+     height: 20px;
      margin-top: -55px;
-     margin-left: 800px;
+     margin-left: 950px;
 }
 .redes1 ul li{
      display: inline-block;/*para que esteb horizontal*/
      margin:5px 5px;
-     width: 50px;
-     height: 50px;
+     width: 60px;
+     /* height: 50px; */
      text-align: center;
 }
 .redes1 ul li a{
@@ -65,9 +82,6 @@ footer{
      padding: 0 10px;
      color: rgba(255, 255, 255, 0.932);
      line-height: 50px;/*la altura para que queden en el centro*/
-     font-size: 20px;/*tamaño de fuente*/
+     font-size: 30px;/*tamaño de fuente*/
 }
-.contactar{
-    margin-left: 825px;
-    color: white;
-}
+
