@@ -113,7 +113,7 @@
 <div class="comentarios1">
     <i class="fas fa-user  usuario" align="right"></i>
     <p class="texto">
-        Tuve una experiencia magnifica
+        Tuve una experiencia magnifica  monic es bonita
     </p>
 </div>
 
