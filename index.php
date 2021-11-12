@@ -12,12 +12,17 @@
     <!-- para que el buscador index nuestra página ( la muestre al principio) -->
     <meta name="robots" content="index"> 
     <script src="https://kit.fontawesome.com/3c8ce09c45.js" crossorigin="anonymous"></script>
+    <script src="indexjavascript.js"></script>
+    
     <link rel="icon" href="images/">
-
     <link rel="stylesheet" href="stylesindex.css">
     <title>LearnTraveling</title>
 </head>
+<<<<<<< HEAD
 <img class="imgbanner" src="imagenesofertas/banderas.png" alt="">
+=======
+<h1 class="title1"> LearnTraveling Website</h1>
+>>>>>>> origin/frontend
 <body>
     <input type="checkbox" id="chec">
     <label for="chec">
@@ -33,25 +38,27 @@
         </ul>
     </nav>
 
-    <div class="contenedor">
+<div class="contenedor">
 
-        <div class="atras botones">
-            &#60
-        </div>
+    <div class="atras botones">
+        &#60
+    </div>
+    <div class="adelante botones">
+        &#62
+    </div>
+     
+    <div class="modal-container">
+        <img src="imagenesindex/brasil.jpg" alt="imagenes de muestra" id="imagenslider">
+    </div>
 
-        <div class="adelante botones">
-            &#62
-        </div>
-         
-        <div class="modal-container">
-            <img src="imagenesindex/brasil.jpg" alt="" id="imagenslider">
-        </div>
-
-        <script src="indexjavascript.js"></script>
 </div>
 
+<h2 id="turistic">LUGARES TURISTICOS MAS RECOMENDADOS</h2>
 <div class="container">
+<<<<<<< HEAD
 <div class="lugares"><h2>LUGARES TURISTICOS MAS RECOMENDADOS</h2></div>
+=======
+>>>>>>> origin/frontend
 
     <div class="item">
         <img src="imagenesindex/caño_cristales.jpg" alt="" class="item-img">
@@ -103,19 +110,23 @@
 
 </div>
 
-<div class="comentarios">
-        <i class="fas fa-user  usuario" align="left"></i>
-    <p class="texto">
-        Tuve una experiencia magnifica
-    </p>
-</div>
-
-<div class="comentarios1">
-    <i class="fas fa-user  usuario" align="right"></i>
-    <p class="texto">
-        Tuve una experiencia magnifica
-    </p>
-</div>
+<article>
+    <!-- COMENTARIOS -->
+    <div class="comentarios">
+            <i class="fas fa-user  usuario" align="left">   Lucy</i>
+        <p class="texto">
+            Tuve una experiencia magnifica, desde el primero momento en que me contacté con la empresa hé recibido un excelente trato y servicio. Lo recomiendo totalmente.
+        </p>
+    </div>
+    
+    <div class="comentarios1">
+        <i class="fas fa-user  usuario" align="right">   Grigori</i>
+        <p class="texto">
+            Really love this company! I never imagined that learning languages could be so exciting. I'd do it again and again undoubtedly. <br>
+            :)
+        </p>
+    </div>
+</article>
 
 <?php
 include_once "footer.php";

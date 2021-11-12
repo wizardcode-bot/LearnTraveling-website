@@ -15,7 +15,7 @@
         </p>
     
         <i class="fas fa-phone-alt telefono"> <p class="textotel">601-318-8844</p></i>
-        <p class="textofooter">LearnTraveling &copy; 2021 Todos derechos reservados</p>
+        <p class="textofooter">LearnTraveling - Todos derechos reservados 2021 &copy;</p>
     
             <div class="redes1">
                 <ul>
