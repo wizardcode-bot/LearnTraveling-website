@@ -58,7 +58,8 @@ input::placeholder{
 
 /* color del texto del correo */
 div a{
-    color: rgb(134, 90, 90);
+    /* color: rgb(134, 90, 90); */
+    color: black;
     font-weight: 700;
     font-style: normal;
 }
