@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesnav.css">
-
+    <script src="https://kit.fontawesome.com/3c8ce09c45.js" crossorigin="anonymous"></script>
 
     <title>NAV</title>
     <img class="imgbanner"src="imagenesofertas/banderas.png" alt="">
@@ -16,7 +16,7 @@
 
 <input type="checkbox" id="chec">
     <label for="chec">
-        <img class="img2" src="imagenesofertas/menu2.png" alt="">
+        <i class="fas fa-arrow-down  flecha" ></i>
     </label>
     <nav>
         <ul class="nav1" >

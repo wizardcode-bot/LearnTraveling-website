@@ -5,6 +5,11 @@
 }
 
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
 .nav1{
     list-style: none;
     position: absolute;
@@ -13,12 +18,16 @@
     top: 20px;
 
 }
-.img2{
-    width: 32px;
-
+.flecha{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.flecha:hover{
+    
+    background-color: rgb(140, 163, 163);
 }
 .imgbanner{
-    float: right;
     width: 1350px;
     height: 100px;
 }

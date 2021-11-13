@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php
+include_once "nav.php";
+?>
     <meta charset="iso-8559-1">
     <meta charset="UTF-8">
     <!-- adjusts the website width to the device it is being used -->
@@ -18,9 +21,7 @@
     <link rel="stylesheet" href="stylesindex.css">
     <title>LearnTraveling</title>
 </head>
-<?php
-include_once "nav.php";
-?>
+
 
 <h1 class="title1"> LearnTraveling Website</h1>
 <body>

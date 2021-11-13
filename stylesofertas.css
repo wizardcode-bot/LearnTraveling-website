@@ -10,10 +10,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagenes/clouds.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #d0b6dd;
+    background-color: whitesmoke;
 }
 
 .nav1{
@@ -24,9 +21,14 @@ body{
     top: 20px;
 
 }
-.img2{
-    width: 32px;
+.flecha{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.flecha:hover{
     
+    background-color: rgb(140, 163, 163);
 }
 .imgbanner{
     width: 1350px;
@@ -82,16 +84,16 @@ label{
     font-size: 60px;
 }
 iframe{
-   margin-bottom: 30px;
+    margin-left: 250px;
+    margin-bottom: 30px;
     opacity: 80%;
 }
 /* OFERTAS MAS POPULARES */
 
 .container{
-    position: absolute;   
+      
     max-width: 1000px; 
     width: 90%;
-    margin-left: auto;
     margin-right: auto;
     margin-top: 90px;
     display: grid;
