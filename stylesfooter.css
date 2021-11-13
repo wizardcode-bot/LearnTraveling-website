@@ -2,7 +2,6 @@
 
 
 footer{
-
     background-color: rgba(0, 0, 0, 0.829);
     height: 270px;
     width: 100%;
@@ -14,8 +13,10 @@ footer{
 
  .textofooter{
     text-align: left;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 110px;
+    bottom: 130px;
+    position: relative;
+    margin-left: 55px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
@@ -23,68 +24,73 @@ footer{
 
 /* icono de teléfono */
 .telefono{
+    float: left;
     font-size: 30px;
-    margin-left: 35px;
-    margin-top: -15px;
+    margin-left: 40px;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
-    text-shadow: 1px 2px 1px whitesmoke;
+    color: white;
+    position: relative;
+    bottom: 15px;
 }
 
 .textotel{
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    padding-top: 8px;
     margin-left: 40px;
+    bottom: 45px;
+    position: relative;
     font-size: 25px;
 }
 
 /* texto de contactanos */
 .contactos{
      font-family: 'Courier New', Courier, monospace;
-     font-size: 15px;
+     font-size: 20px;
      font-weight: 800;
      margin-left: 999px;
      padding-top: 60px;
      padding-bottom: 10px;
+     position: relative;
+     bottom: 30px;
      color: white;
 }
 
 .redes{
      height: 20px;
-     margin-top: -70px;
-     margin-left: 950px;
+     position: relative;
+     bottom: 230px;
+     margin-left: 925px;
 }
 .redes ul li{
      display: inline-block;/*para que esteb horizontal*/
      margin:5px 5px;
      width: 60px;
-     /* height: 50px; */
      text-align: center;
 }
 .redes ul li a{
      display:block;
      padding: 0 10px;
-     color: rgba(255, 255, 255, 0.932);
+     color: white;
      line-height: 50px;/*la altura para que queden en el centro*/
      font-size: 30px;/*tamaño de fuente*/
 }
 .redes1{
      height: 20px;
-     margin-top: -55px;
-     margin-left: 950px;
+     position: relative;
+     bottom: 240px;
+     margin-left: 925px;
 }
 .redes1 ul li{
      display: inline-block;/*para que esteb horizontal*/
      margin:5px 5px;
      width: 60px;
-     /* height: 50px; */
      text-align: center;
 }
 .redes1 ul li a{
      display:block;
      padding: 0 10px;
-     color: rgba(255, 255, 255, 0.932);
+     color: white;
+     padding-bottom: 10px;
      line-height: 50px;/*la altura para que queden en el centro*/
      font-size: 30px;/*tamaño de fuente*/
 }
