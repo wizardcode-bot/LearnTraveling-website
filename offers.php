@@ -8,9 +8,6 @@
     <title>Document</title>
 </head>
 <img class="imgbanner"src="imagenesofertas/banderas.png" alt="">
-<h1 id="fuente-google">
-    OFERTAS MUNDIALES
-</h1>
 
 <body>
 
@@ -27,15 +24,16 @@
         </ul>
     </nav>
     
-    <section class="mapa">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fuLG0ki8g888iXodJndkstmje52Toh1-" width="900" height="590"></iframe>     
+    <section>
+        <h2 class="textomap">MAPA MUNDIAL</h2>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fuLG0ki8g888iXodJndkstmje52Toh1-" width="900" height="590"></iframe>
+
     </section>
-<div class="segundo">  
-    <h2>
+
+    <h2 class="titulosec">
     LOS MAS VISITADOS
     </h2>
-</div>
-  
+
    <div class="container">
  
      <div class="item">
@@ -87,11 +85,6 @@
     </div>
 
    </div>
-
-   <?php
-include_once "footer.php";
-?>
-
 
  
 </body>
