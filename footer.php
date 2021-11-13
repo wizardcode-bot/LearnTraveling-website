@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,20 @@
     <script src="https://kit.fontawesome.com/3c8ce09c45.js" crossorigin="anonymous"></script>
     <title>LearnTraveling</title>
 </head>
-
 <footer>
     <div class="contactos">
         <p>CONTACTANOS</p>
     </div>
 
     <!-- contacto teléfono -->
-    <i class="fas fa-phone-alt telefono"> <p class="textotel">601-318-8844</p></i>
-    <div class="textofooter">
-        <p >LearnTraveling - Todos derechos reservados 2021 &copy;</p>
-    </div>
+    <i class="fas fa-phone-alt telefono">
+    </i>
+    <p class="textotel">601-318-8844</p>
     
+    <div class="textofooter">
+        <p>LearnTraveling - Todos derechos reservados 2021 &copy;</p>
+    </div>
+
     <!-- contácto de redes sociales -->
     <div class="redes1">
         <ul>
@@ -28,7 +31,7 @@
             <li><a href="http://www.telegram.com"><i class="fab fa-telegram-plane"></i></a></li>
         </ul>
     </div>
-        
+
     <div class="redes">
         <ul>
             <li> <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
