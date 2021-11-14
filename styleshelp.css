@@ -82,13 +82,25 @@ div a{
 .star ul li{
     display: inline-block;
 }
-
+/*clase para el boton registrarse*/
+.registrarse{
+    background-image: linear-gradient(to right, #80615f, #E0AC9D);
+    width: max-content;
+    padding: 10px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.registrarse:hover{
+    background-image: linear-gradient( #80615f, #E0AC9D);
+}
+/*texto registrarse*/
 #sign_up{
-    color: rgb(134, 90, 90);
+    color: black;
     font-weight: 700;
     font-style: normal;
-    padding: 10px;
-    font-size: 200px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 
