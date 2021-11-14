@@ -73,15 +73,15 @@
 
 /* empieza contenedor para lugares turisticos mas recomendados */
 .container{
-position: absolute;
+
 max-width: 1000px;
 width: 90%;
-margin-right: 50px;
-margin-left: 130px;
+margin-right: auto;
 margin-top: 90px;
 display: grid;
 grid-template-columns: repeat(1,1fr);
 grid-gap:30px;
+margin-left: 15px;
 }
 
 .item{
@@ -130,7 +130,7 @@ grid-gap:30px;
 /* inicia sección de comentarios */
 .comentarios{
     width: 400px;
-    margin-top: 850px;
+    margin-top: 50px;
     margin-left: 200px;
     padding: 40px;
     border: 2px solid black;
@@ -166,73 +166,5 @@ article{
     .container{
         grid-template-columns:repeat(3,1fr);
     }
-}
-
-.textofooter{
-    text-align: left;
-    margin-top: 60px;
-    color: white;
-}
-
-.telefono{
-    font-size: 30px;
-    margin-top: 30px;
-    color: rgba(8, 8, 8, 0.815);
-}
-
-.textotel{
-    color: white;
-    margin-top: -30px;
-    margin-left: 35px;
-    font-size: 25px;
-}
-.redes{
-     height: 10px;
-     margin-top: -70px;
-     margin-left: 800px;
-}
-.redes ul li{
-     display: inline-block;/*para que esteb horizontal*/
-     margin:5px 5px;
-     width: 50px;
-     height: 50px;
-     text-align: center;
-}
-.redes ul li a{
-     display:block;
-     padding: 0 10px;
-     color: rgba(255, 255, 255, 0.932);
-     line-height: 50px;/*la altura para que queden en el centro*/
-     font-size: 20px;/*tamaño de fuente*/
-}
-.redes1{
-     height: 10px;
-     margin-top: -55px;
-     margin-left: 800px;
-}
-.redes1 ul li{
-     display: inline-block;/*para que esteb horizontal*/
-     margin:5px 5px;
-     width: 50px;
-     height: 50px;
-     text-align: center;
-}
-.redes1 ul li a{
-     display:block;
-     padding: 0 10px;
-     color: rgba(255, 255, 255, 0.932);
-     line-height: 50px;/*la altura para que queden en el centro*/
-     font-size: 20px;/*tamaño de fuente*/
-}
-.contactar{
-    margin-left: 870px;
-    color: white;
-}
-
-footer{
-    background-color: rgba(0, 0, 0, 0.726);
-    padding: 20px;
-    height: 200px;
-    margin-top: 50px;
 }
 

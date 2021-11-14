@@ -8,90 +8,22 @@
 }
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagenes/clouds.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #d0b6dd;
-}
-
-.nav1{
-    list-style: none;
-    position: absolute;
-    width: 100%;
-    float: left;
-    top: 20px;
-
-}
-.img2{
-    width: 32px;
-    
-}
-.imgbanner{
-    width: 1350px;
-    height: 100px;
-}
-input[type="checkbox"]{
-    display: none;
-}
-
-nav{
-    background-color: rgba(16, 16, 16, .5);
-    width: 100%;
-    top: -210px;
-    height: 100px;
-    position: absolute;
-    transition: all 1s;
-   
-}
-
-input[type="checkbox"]:checked ~ nav{
-
-    transform: translateY(210px)
-}
-
-.a{
-
-    text-decoration: none;
-    color: black;
-    padding: 20px 115px;
-    color: white;
-    float: left;
-    display: block;
-    margin-left: 50px;
-}
-
-.a:hover{
-    background-color: rgb(176, 224, 230);
-    color: black;
-    border-radius: 20px;
-}
-
-label{
- 
-    padding: 20px;
-    position: absolute;
-    z-index: 1;
-    
-}
-
 .textomap{
     margin-top: 50px;
     text-align: center;
     font-size: 60px;
 }
 iframe{
-   margin-bottom: 30px;
+    margin-left: 250px;
+    margin-bottom: 30px;
     opacity: 80%;
 }
 /* OFERTAS MAS POPULARES */
 
 .container{
-    position: absolute;   
+      
     max-width: 1000px; 
     width: 90%;
-    margin-left: auto;
     margin-right: auto;
     margin-top: 90px;
     display: grid;
@@ -114,7 +46,6 @@ iframe{
         background-color: rgb(179, 229, 252, .1);
         width: 100%;
         height: 100%;
-        position: absolute;
         top: 0;
         left: 0;
         transform: scale(0);
@@ -130,7 +61,6 @@ iframe{
     
     }
     .item-text{
-        top: -40px;
         padding: 1em;
         cursor: pointer;
         box-shadow: 0 0 5px 0 rgb(0, 0, 0, .895);
