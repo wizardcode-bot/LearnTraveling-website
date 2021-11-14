@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 60px;
+    color:wheat;
+}
+
+/* titulo del header */
+#maintitle{
+    font-size: 70px;
+    /* display: inline; */
+    margin-left: 100px;
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-variant: small-caps; */
+} 
+
+h1{
+    color: red;
+}
+
+body{
+    background: #0b181aff;
+    color: whitesmoke;
+}
+
+.formulario{
+    margin-left: 30em;
+    margin-right: 30em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border: 2px dashed white;
+    padding: 3em;
+    background: #66635b36;
+    border-radius: 10px;
+}
+
+.casillas{
+    padding: 0.8em;
+    text-align: center;
+}
+
+form input{
+    width: 25em;
+    height: 3em;
+    border-radius: 7px;
+    background: #F3E9DC;
+}
+
+input:hover{
+    background-image: linear-gradient( to right, #D6D1B1, #dbe09e);
+}
+
+input:placeholder-shown{
+    padding-left: 10px;
+    
+}
+
+.subBoton{
+    background-image: linear-gradient(to right, #80615f, #E0AC9D);
+    width: 25em;
+    height: 3em;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.subBoton:hover{
+    background-image: linear-gradient( #80615f, #E0AC9D);
+}
+
+button p{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #48e;
+    color: #fff;
+}
+
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+}
