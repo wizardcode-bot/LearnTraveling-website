@@ -17,10 +17,19 @@ include_once "nav.php";
 
     <!-- caja para escribir los problemas presentado con la página -->
     <div class="problemsBox">
-        <h2>Cuentanos tu problema</h2>
+        <h2 id="problemText">Cuentanos tu problema</h2>
         <input type="text" name="complains" id="complainBox" placeholder="Escribe aquí...">
         <button type="submit" id="problemsButton">Enviar</button>
     </div>
+
+    <a href="form.php" id="sign_up">¡Quiero registrarme!</a>
+
+    <?
+    include_once "registrar.php";
+
+    print_r($consulta);
+    // echo $_POST['name'];
+    ?>
 
     <!-- contacto con correo electrónico -->
     <div class="problemsBox">
