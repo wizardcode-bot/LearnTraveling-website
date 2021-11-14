@@ -9,7 +9,7 @@ body{
 
 
 /* título de cuentanos tu problema */
-h2{
+#problemText{
     padding-bottom: 10px;
     font-size: 30px;
 }
@@ -88,7 +88,7 @@ div a{
     font-weight: 700;
     font-style: normal;
     padding: 10px;
-    font-size: 20px;
+    font-size: 200px;
 }
 
 

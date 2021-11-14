@@ -39,9 +39,8 @@ if(isset($_POST['registrar'])){
     }
     else{
         ?>
-            <h3 class="bad">Diligenciar todos los campos</h3>
-
-            <?php
+        <h3 class="bad">Diligenciar todos los campos</h3>
+        <?php
     }
 }
 
