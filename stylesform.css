@@ -11,15 +11,12 @@ header{
 /* titulo del header */
 #maintitle{
     font-size: 70px;
-    /* display: inline; */
-    margin-left: 100px;
-    /* text-align: center; */
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* font-variant: small-caps; */
 } 
 
-h1{
-    color: red;
+h2{
+    text-align: center;
 }
 
 body{
@@ -83,6 +80,7 @@ button p{
     padding: 12px;
     background-color: #48e;
     color: #fff;
+    margin-bottom: 5px;
 }
 
 .bad{
@@ -91,4 +89,5 @@ button p{
     padding: 12px;
     background-color: #a22;
     color: #fff;
+    margin-bottom: 5px;
 }
