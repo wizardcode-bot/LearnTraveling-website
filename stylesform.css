@@ -33,6 +33,7 @@ body{
     padding: 3em;
     background: #66635b36;
     border-radius: 10px;
+    width: max-content;
 }
 
 .casillas{
