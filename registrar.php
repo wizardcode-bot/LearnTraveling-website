@@ -2,13 +2,6 @@
 
 include ("con_dp.php");
 
-#verificar conexión
-//   if($conex){
-//       echo "todo bien";
-//   }else{
-//       echo "ups sorry!";
-//   }
-
 #verificar si la variable tiene información
 if(isset($_POST['registrar'])){
     if(strlen($_POST['name']) >= 1 && strlen($_POST['nationality']) >= 1

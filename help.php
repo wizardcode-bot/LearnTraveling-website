@@ -26,13 +26,6 @@
         <a href="form.php" id="sign_up">¡Quiero registrarme!</a>
     </button>
 
-    <?
-    include_once "registrar.php";
-
-    print_r($consulta);
-    // echo $_POST['name'];
-    ?>
-
     <!-- contacto con correo electrónico -->
     <div class="problemsBox">
         <h3>Si aún tienes problemas escríbenos a este correo:</h3>
