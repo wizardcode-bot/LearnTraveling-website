@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="stylesnav.css">
     <script src="https://kit.fontawesome.com/3c8ce09c45.js" crossorigin="anonymous"></script>
 
-    <title>NAV</title>
+    <title>LearnTraveling</title>
     <img class="imgbanner"src="imagenesofertas/banderas.png" alt="">
 
 </head>
@@ -20,10 +20,10 @@
     </label>
     <nav>
         <ul class="nav1" >
-            <li><a class="a" href="">HOME</a></li>
-            <li><a class="a" href="">ABOUT</a></li>
-            <li><a class="a" href="">OFFERS</a></li>
-            <li><a class="a" href="">HELP</a></li>
+            <li><a class="a" href="index.php">HOME</a></li>
+            <li><a class="a" href="about.php">ABOUT</a></li>
+            <li><a class="a" href="offers.php">OFFERS</a></li>
+            <li><a class="a" href="help.php">HELP</a></li>
         </ul>
     </nav>
     
