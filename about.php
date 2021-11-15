@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-<?php
-include_once "nav.php";
-?>
+    <?php
+    include_once "nav.php";
+    ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,9 @@ include_once "nav.php";
 </head>
 
 <body>
-
-    <h1 class="titulo">¿QUIENES SOMOS? </h1>
+    <div class="titulo">
+        <h1>¿QUIENES SOMOS? </h1>
+    </div>
 
     <div class="user">
         <i class="fas fa-user-tie"></i>
@@ -32,7 +33,7 @@ include_once "nav.php";
     </div>
     <section>
         <h2 class="textosec">NOS ENCONTRAMOS UBICADOS EN</h2>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fuLG0ki8g888iXodJndkstmje52Toh1-" width="900" height="590"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1QqDE1IocZrHoRHi6-PAcvLTwp2rgfpQn" width="900" height="590"></iframe>
 
     </section>
 </body>

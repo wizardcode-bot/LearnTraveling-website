@@ -7,11 +7,13 @@
     
 }
 
-
 .textomap{
     margin-top: 50px;
     text-align: center;
     font-size: 60px;
+}
+section{
+    margin-top: 120px;
 }
 iframe{
     margin-left: 250px;
