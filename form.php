@@ -35,7 +35,9 @@
             </div>        
         </form>
         <input type="reset" value="Reset" id="reset">
-        <button id="volver">Volver</button>
+        <button id="volver">
+            <a href="help.php">Volver</a>
+        </button>
     </div>
 
     <?php

@@ -89,6 +89,7 @@ button p{
     background-color: #a22;
     color: #fff;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 /* botón de reset */
@@ -100,6 +101,12 @@ button p{
     padding-right: 10px;
     border-radius: 5px;
     font-weight: 700;
+    background: #F3E9DC;
+}
+
+#reset:hover{
+    background-image: linear-gradient( to right, #D6D1B1, #dbe09e);
+    cursor: pointer;
 }
 
 /* botón para volver a help.php */
@@ -110,5 +117,20 @@ button p{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+    font-weight: 700;
+    background: #F3E9DC;
+}
+
+#volver:hover{
+    background-image: linear-gradient( to right, #D6D1B1, #dbe09e);
+}
+
+#regMessage{
+    padding: 15px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
     font-weight: 700;
 }

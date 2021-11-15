@@ -27,8 +27,7 @@ if(isset($_POST['registrar'])){
 
         if($resultado){
             ?>
-            <h3 class="ok">Usuario registrado</h3>
-            <script>window.location.href = 'help.php'</script>
+            <script>window.location.href = 'registered.php'</script>
             <?php
         }else{
             ?>
