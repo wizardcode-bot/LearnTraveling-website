@@ -31,14 +31,11 @@
                         <p>Enviar</p>
                     </button>
                 </div>
-
-                <!-- 
-        <input type="text" name="name" id="nombre" placeholder="Nombre completo" >
-        <input type="email" name="email" id="email" placeholder="Email" >
-        <input type="submit" name="registrar" id="enviar">-->
                 
             </div>        
         </form>
+        <input type="reset" value="Reset" id="reset">
+        <button id="volver">Volver</button>
     </div>
 
     <?php

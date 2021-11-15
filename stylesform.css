@@ -25,10 +25,8 @@ body{
 }
 
 .formulario{
-    margin-left: 30em;
-    margin-right: 30em;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin: auto;
+    text-align: center;
     border: 2px dashed white;
     padding: 3em;
     background: #66635b36;
@@ -91,4 +89,26 @@ button p{
     background-color: #a22;
     color: #fff;
     margin-bottom: 5px;
+}
+
+/* botón de reset */
+#reset{
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* botón para volver a help.php */
+#volver{
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: 700;
 }
